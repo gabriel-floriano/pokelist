@@ -1,0 +1,31 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 5vh;
+  max-height: 8vh;
+  background-color: #f7f7f7;
+  color: #5e5e5e;
+}
+
+.logo {
+  padding-left: 2vh;
+  width: 4vh;
+  height: 4vh;
+}
+
+.nav-links {
+  padding-right: 10vh;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  list-style: none;
+  margin: 0;
+}
+
+.nav-route-links {
+  font-weight: 600;
+  padding-right: 15px;
+  color: #5e5e5e;
+}
